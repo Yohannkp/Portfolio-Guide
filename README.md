@@ -7,44 +7,69 @@ Bienvenue sur mon portfolio de projets data !
 
 ## 📚 Table des matières
 
-- [📊 Analyse & Machine Learning](#-analyse--machine-learning)
-- [📈 Visualisation de données](#-visualisation-de-données)
-- [⚙️ Automatisation & Scraping](#-automatisation--scraping)
-- [🧪 Tests & Statistiques](#-tests--statistiques)
+- [📊 Data Science & Machine Learning](#-data-science--machine-learning)
+- [📈 Visualisation & A/B Testing](#-visualisation--ab-testing)
+- [🧠 Analyse exploratoire & préparation](#-analyse-exploratoire--préparation)
+- [⚙️ Data Engineering](#-data-engineering)
+- [📱 Développement mobile](#-développement-mobile)
+- [🌐 Développement web](#-développement-web)
 - [📫 Me contacter](#-me-contacter)
 
 ---
 
-## 📊 Analyse & Machine Learning
+## 📊 Data Science & Machine Learning
 
 | Projet | Objectif | Outils | Lien |
 |--------|----------|--------|------|
-| 🧠 **Prédiction du Turnover RH** <br/> *Salifort Motors* | Construire un modèle de classification pour anticiper les départs d’employés | Python, Scikit-learn, XGBoost, Streamlit | [🔗 App](https://projet-salifort-motors-app.streamlit.app/) · [💻 Code](https://github.com/Yohannkp/Projet-Salifort-Motors.git) |
-| 👥 **Segmentation Marketing** | Identifier des segments clients via clustering (K-means, t-SNE, PCA) | Python, Scikit-learn, Streamlit | [🔗 App](https://analyse-marketing-zap5appepxyqkmjhtt3ovqi.streamlit.app/) · [💻 Code](https://github.com/Yohannkp/Analyse-Marketing.git) |
+| 🧠 **Prédiction du Turnover RH** <br/> *Salifort Motors* | Prédire les employés à risque de quitter l’entreprise | Python, XGBoost, Scikit-learn | [💻 Code](https://github.com/Yohannkp/Projet-Salifort-Motors.) |
+| 👁 **Détection de fraudes bancaires** | Détection des anomalies dans les données financières | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/AED-D-tection-de-fraudes) |
+| 🎬 **Recommandation de films** | Construire un système de recommandation simple | Python, Pandas, Numpy | [💻 Code](https://github.com/Yohannkp/Recommandation-de-films) |
 
 ---
 
-## 🧪 Tests & Statistiques
-
-| Projet | Objectif | Méthodes & outils | Lien |
-|--------|----------|-------------------|------|
-| 🧾 **A/B Testing Landing Page** | Comparer 2 versions d’une landing page (200k utilisateurs) | Python, Pandas, SciPy, Streamlit | [🔗 App](https://tests-statistiques-landing-page-gxdfuncfjkpxm9kfyzvafu.streamlit.app/) · [💻 Code](https://github.com/Yohannkp/Tests-Statistiques-Landing-Page.git) |
-
----
-
-## ⚙️ Automatisation & Scraping
+## 📈 Visualisation & A/B Testing
 
 | Projet | Objectif | Outils | Lien |
 |--------|----------|--------|------|
-| 🛒 **Veille concurrentielle e-commerce** | Scraping des prix concurrents + alertes mail automatisées | Python, BeautifulSoup, cron, smtplib | *Démonstration disponible sur demande* |
+| 🧪 **Landing Page A/B Test** | Déterminer quelle version performe le mieux | Python, Pandas, SciPy, Streamlit | [💻 Code](https://github.com/Yohannkp/Tests-Statistiques-Landing-Page) |
+| 📊 **Segmentation marketing** | Identifier les segments les plus rentables | Python, Scikit-learn, PCA, Streamlit | [💻 Code](https://github.com/Yohannkp/Analyse-Marketing) |
+| 📈 **Tiktok A/B Test** | Analyse de performance sur données TikTok | Python, Seaborn | [💻 Code](https://github.com/Yohannkp/A-B-Testing-Tiktok) |
 
 ---
 
-## 📈 Visualisation de données
+## 🧠 Analyse exploratoire & préparation
 
-| Projet | Objectif | Outils | Détails |
-|--------|----------|--------|---------|
-| 🛍 **Audit e-commerce local** | Analyser les ventes, taux de conversion, produits stars, upsell | Tableau, Excel, SQL | *Dashboard disponible sur demande* |
+| Projet | Objectif | Outils | Lien |
+|--------|----------|--------|------|
+| 📂 **EDA Tiktok Sinistres** | Préparer les données pour un projet ML | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/EDA-Projet-TIKTOK) |
+| 📊 **Scénario Tiktok (part 1)** | Identifier les variables clés dans le jeu de données | Python, Excel | [💻 Code](https://github.com/Yohannkp/Tiktok-Scenario-Part-1-) |
+
+---
+
+## ⚙️ Data Engineering
+
+| Projet | Objectif | Outils | Lien |
+|--------|----------|--------|------|
+| 🏗 **Pipeline de données** | Début d’un repo orienté traitement de flux | Python, GCP, Pandas (en cours) | [💻 Code](https://github.com/Yohannkp/Data-Engineer) |
+
+---
+
+## 📱 Développement mobile
+
+| Projet | Objectif | Tech | Lien |
+|--------|----------|------|------|
+| 🏠 **Location de maison** | Trouver un logement depuis son mobile | Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/LocationMaison) |
+| 🍳 **Yummly app clone** | App de recettes responsive | Flutter | [💻 Code](https://github.com/Yohannkp/yummly) |
+
+---
+
+## 🌐 Développement web
+
+| Projet | Objectif | Stack | Lien |
+|--------|----------|-------|------|
+| 🌍 **Mini réseau social** | Plateforme sociale simplifiée | Django / Web2py | [💻 Code](https://github.com/Yohannkp/R-seau-Social) |
+| 🧪 **Site Flask - TP IPSSI** | Backend de test web avec base SQLite | Flask, Python | [💻 Code](https://github.com/Yohannkp/Site_Flask) |
+| ⚙️ **TP Angular individuel** | Projet frontend IPSSI | Angular | [💻 Code](https://github.com/Yohannkp/tpindivangular) |
 
 ---
 
@@ -57,6 +82,5 @@ Bienvenue sur mon portfolio de projets data !
 
 ---
 
-> _"Je transforme les données en décisions."_  
-> Chaque projet ici a été pensé pour répondre à un problème métier réel avec des outils techniques avancés.  
-Merci pour votre visite 🙌
+> _« Je transforme les données en décisions. »_  
+> Chaque projet ici a été pensé pour résoudre un problème métier réel avec des outils adaptés et une logique d’impact.
