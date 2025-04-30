@@ -1,7 +1,7 @@
 # 🗺 Yohann Aharh – Data Portfolio
 
 Bienvenue sur mon portfolio de projets data !  
-🎓 Actuellement en Master Big Data & Intelligence Artificielle (IPSSI) et alternant Data Analyst, je développe des projets concrets mêlant **analyse de données**, **machine learning**, **visualisation** et **déploiement d’applications interactives**.
+je développe des projets concrets mêlant **analyse de données**, **machine learning**, **visualisation** et **déploiement d’applications interactives**.
 
 ---
 
