@@ -1,6 +1,6 @@
 # 🗺 Yohann Aharh – Data Portfolio
 
-Bienvenue sur mon portfolio de projets data !  
+Bienvenue sur mon portfolio de projets !  
 je développe des projets concrets mêlant **analyse de données**, **machine learning**, **visualisation** et **déploiement d’applications interactives**.
 
 ---
