@@ -70,6 +70,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | 🌍 **Mini réseau social** | Plateforme sociale simplifiée | Django / Web2py | [💻 Code](https://github.com/Yohannkp/R-seau-Social) |
 | 🧪 **Site Flask - TP IPSSI** | Backend de test web avec base SQLite | Flask, Python | [💻 Code](https://github.com/Yohannkp/Site_Flask) |
 | ⚙️ **TP Angular individuel** | Projet frontend IPSSI | Angular | [💻 Code](https://github.com/Yohannkp/tpindivangular) |
+| **Projet Docker-K8s**|Architecture Web avec 3 conteneurs|Docker|[💻 Code](https://github.com/Yohannkp/Groupe-12-TP-docker)|
 
 ---
 
