@@ -22,19 +22,17 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | Projet | Objectif | Outils | Lien |
 |--------|----------|--------|------|
 | 🧠 **Prédiction du Turnover RH** <br/> *Salifort Motors* | Prédire les employés à risque de quitter l’entreprise | Python, XGBoost, Scikit-learn | [💻 Code](https://github.com/Yohannkp/Projet-Salifort-Motors.) |
-| 👁 **Détection de fraudes bancaires** | Détection des anomalies dans les données financières | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/AED-D-tection-de-fraudes) |
 | 🎬 **Recommandation de films** | Construire un système de recommandation simple | Python, Pandas, Numpy | [💻 Code](https://github.com/Yohannkp/Recommandation-de-films) |
 
 ---
 
-## 📈 Visualisation & A/B Testing
+## 📈 Statistiques et clustering
 
 | Projet | Objectif | Outils | Lien |
 |--------|----------|--------|------|
 | 🧪 **Landing Page A/B Test** | Déterminer quelle version performe le mieux | Python, Pandas, SciPy, Streamlit | [💻 Code](https://github.com/Yohannkp/Tests-Statistiques-Landing-Page) |
 | 📊 **Segmentation marketing** | Identifier les segments les plus rentables | Python, Scikit-learn, PCA, Streamlit | [💻 Code](https://github.com/Yohannkp/Analyse-Marketing) |
 | 📈 **Tiktok A/B Test** | Analyse de performance sur données TikTok | Python, Seaborn | [💻 Code](https://github.com/Yohannkp/A-B-Testing-Tiktok) |
-
 ---
 
 ## 🧠 Analyse exploratoire & préparation
@@ -43,7 +41,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 |--------|----------|--------|------|
 | 📂 **EDA Tiktok Sinistres** | Préparer les données pour un projet ML | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/EDA-Projet-TIKTOK) |
 | 📊 **Scénario Tiktok (part 1)** | Identifier les variables clés dans le jeu de données | Python, Excel | [💻 Code](https://github.com/Yohannkp/Tiktok-Scenario-Part-1-) |
-
+| 👁 **Détection de fraudes bancaires** | Détection des anomalies dans les données financières | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/AED-D-tection-de-fraudes) |
 ---
 
 ## ⚙️ Data Engineering
