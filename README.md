@@ -58,9 +58,11 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 
 | Projet | Objectif | Tech | Lien |
 |--------|----------|------|------|
+|**Text-to-Speech avec IA** | Cette application utilise Flutter pour fournir une interface permettant à l'utilisateur d'envoyer des requêtes à une IA, et d'écouter les réponses via une synthèse vocale (Text-to-Speech). | Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/application_translate_flutter) |
+|**NORAF** | Une application qui permet aux visiteurs de d'obtenir et de visiter les meilleurs coins de mon pays le Togo| Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/NORAF) |
 | 🏠 **Location de maison** | Trouver un logement depuis son mobile | Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/LocationMaison) |
 | 🍳 **Yummly app clone** | App de recettes responsive | Flutter | [💻 Code](https://github.com/Yohannkp/yummly) |
-
+| **Emergency** | Une application polyvalente, disponible sur mobile et desktop, développée avec Flutter et alimentée par une API Django. Conçue pour améliorer la réponse aux situations critiques, Emergency offre une série de fonctionnalités essentielles pour offrir un soutien immédiat en cas de besoin. | Flutter | [💻 Code](https://github.com/Yohannkp/emmergency) |
 ---
 
 ## 🌐 Développement web
@@ -68,7 +70,8 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | Projet | Objectif | Stack | Lien |
 |--------|----------|-------|------|
 | 🌍 **Mini réseau social** | Plateforme sociale simplifiée | Django / Web2py | [💻 Code](https://github.com/Yohannkp/R-seau-Social) |
-| 🧪 **Site Flask - TP IPSSI** | Backend de test web avec base SQLite | Flask, Python | [💻 Code](https://github.com/Yohannkp/Site_Flask) |
+| 🧪 **Site Flask - TP IPSSI** | Backend de test web avec base SQLite | Flask, Python | [💻 Code](https://github.com/Yohannkp/Site_Flask) 
+|**Application FastFood** | Chili Loco est une application web dédiée à la gestion efficace d'un fast-food. Développée avec le framework Symfony, et utilisant MySQL pour la base de données, cette application a été conçue à partir de maquettes réalisées sur Figma. Chili Loco permet de gérer les plats disponibles au restaurant en offrant des fonctionnalités pour afficher, modifier et supprimer des plats.| Symfony, MySQL | [💻 Code](https://github.com/Yohannkp/Chililoco) |
 | ⚙️ **TP Angular individuel** | Projet frontend IPSSI | Angular | [💻 Code](https://github.com/Yohannkp/tpindivangular) |
 | **Projet Docker-K8s**|Architecture Web avec 3 conteneurs|Docker|[💻 Code](https://github.com/Yohannkp/Groupe-12-TP-docker)|
 
