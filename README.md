@@ -22,7 +22,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 
 | Projet | Objectif | Outils | Lien |
 |--------|----------|--------|------|
-| 🧠 **Prédiction du Turnover RH** <br/> *Salifort Motors* | Prédire les employés à risque de quitter l’entreprise | Python, XGBoost, Scikit-learn | [💻 Code](https://github.com/Yohannkp/Projet-Salifort-Motors.) |
+| 🧠 **Prédiction du Turnover RH** <br/> *Salifort Motors* | Projet complet de l'analyse jusqu'au déploiement du model de machine learning pour prédire les employés à risque de quitter l’entreprise | Python, XGBoost, Scikit-learn | [💻 Code](https://github.com/Yohannkp/Projet-Salifort-Motors.) |
 | 🎬 **Recommandation de films** | Construire un système de recommandation simple | Python, Pandas, Numpy | [💻 Code](https://github.com/Yohannkp/Recommandation-de-films) |
 
 ---
@@ -60,6 +60,8 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | 🚗 **Montgomery Fleet Inventory – Part 1** | Nettoyage complet d’un dataset CSV (doublons, fautes, lignes vides, formatage) | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
 | 📊 **Montgomery Fleet Inventory – Part 2** | Création de 3 TCD + tri + AutoSum + structuration hiérarchique | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
 | 📊 **Car_Sales_Kaggle** |Se familiariser avec la création de graphiques de base dans Excel| Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Data%20Visualization%20and%20Dashboard%20Excel%20cognos/Practice1) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
+|  **Peer-Graded Assignment** | créer des visualisations à partir de données réelles issues du secteur automobile, pour analyser les ventes et les profits par concessionnaire. | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Data%20Visualization%20and%20Dashboard%20Excel%20cognos/Practice4) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
+
 
 ---
 
