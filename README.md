@@ -81,7 +81,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | **AUTO-ECOLE EN LIGNE**|Une app web permettant de faire des réservations de cours de conduite en ligne |Symfony|[💻 Code](https://github.com/Yohannkp/AUTO_ECOLE)|
 | 🧪 **Site Flask - TP IPSSI** | Backend de test web avec base SQLite | Flask, Python | [💻 Code](https://github.com/Yohannkp/Site_Flask) 
 |**Application FastFood** | Chili Loco est une application web dédiée à la gestion efficace d'un fast-food. Développée avec le framework Symfony, et utilisant MySQL pour la base de données, cette application a été conçue à partir de maquettes réalisées sur Figma. Chili Loco permet de gérer les plats disponibles au restaurant en offrant des fonctionnalités pour afficher, modifier et supprimer des plats.| Symfony, MySQL | [💻 Code](https://github.com/Yohannkp/Chililoco) |
-| ⚙️ **TP Angular individuel** | Projet frontend IPSSI | Angular | [💻 Code](https://github.com/Yohannkp/tpindivangular) |
+| ⚙️ **API de Gestion de Fichiers et d’Espace de Stockage** | Une API qui permet aux utilisateurs de gérer leurs fichiers et leur espace de stockage sur une plateforme sécurisée. Les administrateurs ont accès à des fonctionnalités avancées de gestion des utilisateurs et de visualisation de statistiques. | PHP >= 8.2 Symfony >= 6.0 Composer MySQL | [💻 Code](https://github.com/Batyeste/CloudUs/tree/back) |
 | **Projet Docker-K8s**|Architecture Web avec 3 conteneurs|Docker|[💻 Code](https://github.com/Yohannkp/Groupe-12-TP-docker)|
 
 ---
