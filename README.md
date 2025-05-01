@@ -71,7 +71,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 |**NORAF** | Une application qui permet aux visiteurs de d'obtenir et de visiter les meilleurs coins de mon pays le Togo| Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/NORAF) |
 | 🏠 **Location de maison** | Trouver un logement depuis son mobile | Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/LocationMaison) |
 | 🍳 **Yummly app clone** | App de recettes responsive | Flutter | [💻 Code](https://github.com/Yohannkp/yummly) |
-| **Emergency** | Une application polyvalente, disponible sur mobile et desktop, développée avec Flutter et alimentée par une API Django. Conçue pour améliorer la réponse aux situations critiques, Emergency offre une série de fonctionnalités essentielles pour offrir un soutien immédiat en cas de besoin. | Flutter | [💻 Code](https://github.com/Yohannkp/emmergency) |
+| **Emergency** | Une application polyvalente, disponible sur mobile et desktop, développée avec Flutter et alimentée par une API Django. Conçue pour améliorer la réponse aux situations critiques, Emergency offre une série de fonctionnalités essentielles pour offrir un soutien immédiat en cas de besoin. | Flutter, Django API | [💻 Code](https://github.com/Yohannkp/emmergency) |
 ---
 
 ## 🌐 Développement web
