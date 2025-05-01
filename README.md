@@ -11,6 +11,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 - [📈 Visualisation & A/B Testing](#-visualisation--ab-testing)
 - [🧠 Analyse exploratoire & préparation](#-analyse-exploratoire--préparation)
 - [⚙️ Data Engineering](#-data-engineering)
+- [📊 Projets Excel & Data Cleaning](#-projets-excel--data-cleaning)
 - [📱 Développement mobile](#-développement-mobile)
 - [🌐 Développement web](#-développement-web)
 - [📫 Me contacter](#-me-contacter)
@@ -49,6 +50,16 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | Projet | Objectif | Outils | Lien |
 |--------|----------|--------|------|
 | 🏗 **Pipeline de données** | Début d’un repo orienté traitement de flux | Python, GCP, Pandas (en cours) | [💻 Code](https://github.com/Yohannkp/Data-Engineer) |
+
+---
+
+## 📊 Projets Excel & Data Cleaning
+
+| Projet | Objectif | Outils | Lien | Certification |
+|--------|----------|--------|------|---------------|
+| 🚗 **Montgomery Fleet Inventory – Part 1** | Nettoyage complet d’un dataset CSV (doublons, fautes, lignes vides, formatage) | Excel for the Web | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
+| 📊 **Montgomery Fleet Inventory – Part 2** | Création de 3 TCD + tri + AutoSum + structuration hiérarchique | Excel for the Web | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
+
 
 ---
 
