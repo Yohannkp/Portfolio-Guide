@@ -57,8 +57,8 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 
 | Projet | Objectif | Outils | Lien | Certification |
 |--------|----------|--------|------|---------------|
-| 🚗 **Montgomery Fleet Inventory – Part 1** | Nettoyage complet d’un dataset CSV (doublons, fautes, lignes vides, formatage) | Excel for the Web | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
-| 📊 **Montgomery Fleet Inventory – Part 2** | Création de 3 TCD + tri + AutoSum + structuration hiérarchique | Excel for the Web | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
+| 🚗 **Montgomery Fleet Inventory – Part 1** | Nettoyage complet d’un dataset CSV (doublons, fautes, lignes vides, formatage) | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
+| 📊 **Montgomery Fleet Inventory – Part 2** | Création de 3 TCD + tri + AutoSum + structuration hiérarchique | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
 
 
 ---
