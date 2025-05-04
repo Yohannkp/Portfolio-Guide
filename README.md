@@ -43,6 +43,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | 📂 **EDA Tiktok Sinistres** | Préparer les données pour un projet ML | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/EDA-Projet-TIKTOK) |
 | 📊 **Scénario Tiktok (part 1)** | Identifier les variables clés dans le jeu de données | Python, Excel | [💻 Code](https://github.com/Yohannkp/Tiktok-Scenario-Part-1-) |
 | 👁 **Détection de fraudes bancaires** | Détection des anomalies dans les données financières | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/AED-D-tection-de-fraudes) |
+| **Extraction et visualisation des données boursières** | Extraire les données essentielles d'un ensemble de données et les afficher est une étape essentielle de la science des données | Python | [💻 Code](https://github.com/Yohannkp/WebScraping/tree/main) |
 ---
 
 ## ⚙️ Data Engineering
