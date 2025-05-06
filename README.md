@@ -44,6 +44,9 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | 📊 **Scénario Tiktok (part 1)** | Identifier les variables clés dans le jeu de données | Python, Excel | [💻 Code](https://github.com/Yohannkp/Tiktok-Scenario-Part-1-) |
 | 👁 **Détection de fraudes bancaires** | Détection des anomalies dans les données financières | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/AED-D-tection-de-fraudes) |
 | **Extraction et visualisation des données boursières** | Extraire les données essentielles d'un ensemble de données et les afficher est une étape essentielle de la science des données | Python | [💻 Code](https://github.com/Yohannkp/WebScraping/tree/main) |
+| **Analyse et Modélisation des Données Automobiles** | L'objectif principal de ce projet était d'analyser les données automobiles pour comprendre les relations entre différentes caractéristiques des voitures et leur prix. Nous avons utilisé des techniques de régression linéaire simple, régression linéaire multiple, régression polynomiale et pipelines pour modéliser ces relations et effectuer des prédictions. | Python  | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP6) |
+| **Analyse des Prix des Ordinateurs Portables** | Ce projet vise à analyser les facteurs influençant les prix des ordinateurs portables en utilisant un ensemble de données contenant des informations sur diverses caractéristiques des ordinateurs portables. Nous avons utilisé des bibliothèques Python telles que pandas, numpy, matplotlib, seaborn, et scipy pour effectuer l'analyse.| Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP5) |
+| **Analyse de Données - Automobile Dataset** | Ce projet consiste en une analyse exploratoire et une visualisation des données du dataset automobile. L'objectif est d'identifier les relations entre les variables et de déterminer les facteurs influençant le prix des voitures.| Python | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP4) |
 ---
 
 ## ⚙️ Data Engineering
@@ -51,6 +54,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | Projet | Objectif | Outils | Lien |
 |--------|----------|--------|------|
 | 🏗 **Pipeline de données** | Début d’un repo orienté traitement de flux | Python, GCP, Pandas (en cours) | [💻 Code](https://github.com/Yohannkp/Data-Engineer) |
+
 
 ---
 
