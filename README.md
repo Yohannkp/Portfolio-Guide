@@ -10,7 +10,6 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 - [📊 Data Science & Machine Learning](#-data-science--machine-learning)
 - [📈 Visualisation & A/B Testing](#-visualisation--ab-testing)
 - [🧠 Analyse exploratoire & préparation](#-analyse-exploratoire--préparation)
-- [⚙️ Data Engineering](#-data-engineering)
 - [📊 Projets Excel & Data Cleaning](#-projets-excel--data-cleaning)
 - [📱 Développement mobile](#-développement-mobile)
 - [🌐 Développement web](#-développement-web)
@@ -49,14 +48,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | **Analyse de Données - Automobile Dataset** | Ce projet consiste en une analyse exploratoire et une visualisation des données du dataset automobile. L'objectif est d'identifier les relations entre les variables et de déterminer les facteurs influençant le prix des voitures.| Python | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP4) |
 ---
 
-## ⚙️ Data Engineering
 
-| Projet | Objectif | Outils | Lien |
-|--------|----------|--------|------|
-| 🏗 **Pipeline de données** | Début d’un repo orienté traitement de flux | Python, GCP, Pandas (en cours) | [💻 Code](https://github.com/Yohannkp/Data-Engineer) |
-
-
----
 
 ## 📊 Projets Excel & Data Cleaning
 
