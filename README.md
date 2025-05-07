@@ -90,8 +90,8 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 ## 📫 Me contacter
 
 - 📧 Email : [yendiyohann@gmail.com](mailto:yendiyohann@gmail.com)
-- 💼 LinkedIn : [linkedin.com/in/yendi-aharh](https://linkedin.com/in/yendi-aharh)
-- 🌐 Portfolio Web : [yohannkp.github.io/portfolio](https://yohannkp.github.io/portfolio)
+- 💼 LinkedIn : [linkedin.com/in/yendi-aharh](https://www.linkedin.com/in/yendi-aharh-data-scientist-alternance-paris-contrat-apprentissage-dataanalyst-datascientist-data/)
+- 🌐 Portfolio Web : [yohannkp.github.io/portfolio](https://www.datascienceportfol.io/yendiyohann)
 - 🧪 GitHub : [github.com/Yohannkp](https://github.com/Yohannkp)
 
 ---
