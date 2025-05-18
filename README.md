@@ -26,6 +26,7 @@ je développe des projets concrets mêlant **analyse de données**, **machine le
 | 📈 **Analyse et de Modélisation des Prix des Maisons** | Ce projet vise à analyser un ensemble de données sur les maisons, à effectuer un prétraitement des données, à explorer les relations entre les variables, et à construire des modèles de régression pour prédire les prix des maisons. | Python | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/data-analyst-project) |
 | 📈 **Analyse frais médicaux** | Ce projet vise à analyser un ensemble de données médicales pour comprendre les relations entre différentes variables et les frais médicaux. Nous avons également développé des modèles prédictifs pour estimer les frais médicaux en fonction des caractéristiques des patients. | Python | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP8) |
 | 📈 **Régression linéaire Simple** | Analyse des données(Formattage, Netoyage) et mise en place d'un model de régression linéaire Pour prédire les prix | Python,Machine learning,Skit-learn | [💻 Code](https://github.com/Yohannkp/Cour-Data-et-IA-IPSSI.git) |
+| 📈 **Breast-Cancer-Prediction-Using-Machine-Learning** | Détection du cancer du sein grace au model de regression logistique | Python,Machine learning,Skit-learn | [💻 Code](https://github.com/Yohannkp/Breast-Cancer-Prediction-Using-Machine-Learning) |
 ---
 
 ## 📈 Statistiques et clustering
