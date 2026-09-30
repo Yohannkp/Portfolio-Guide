@@ -1,105 +1,65 @@
-# 🗺 Yohann Aharh – Data Portfolio
+# Guide des projets — Yendi Yohann
 
-Bienvenue sur mon portfolio de projets !  
-je développe des projets concrets mêlant **analyse de données**, **machine learning**, **visualisation** et **déploiement d’applications interactives**.
+Élève ingénieur Big Data & IA à l'ECE Paris, orienté **MLOps et data engineering** : affiner un modèle, le servir derrière une API, le conteneuriser et le déployer de façon reproductible. **Je cherche un stage de 4 à 6 mois à partir d'avril 2027.**
 
----
+Les projets sont classés par ce qu'ils démontrent, comme sur [mon portfolio](https://v0-junior-developer-portfolio-bay.vercel.app/projects). Pour chacun : le problème posé, ce qui a été fait, et la preuve quand elle est chiffrable.
 
-## 📚 Table des matières
+## Sommaire
 
-- [📊 Data Science & Machine Learning](#-data-science--machine-learning)
-- [📈 Visualisation & A/B Testing](#-visualisation--ab-testing)
-- [🧠 Analyse exploratoire & préparation](#-analyse-exploratoire--préparation)
-- [📊 Projets Excel & Data Cleaning](#-projets-excel--data-cleaning)
-- [📱 Développement mobile](#-développement-mobile)
-- [🌐 Développement web](#-développement-web)
-- [📫 Me contacter](#-me-contacter)
+- [Mettre des modèles en production](#mettre-des-modèles-en-production) — 3 projets
+- [Affiner et entraîner des modèles](#affiner-et-entraîner-des-modèles) — 4 projets
+- [Mesurer et prouver](#mesurer-et-prouver) — 5 projets
+- [Construire des applications](#construire-des-applications) — 5 projets
 
----
+## Mettre des modèles en production
 
-## 📊 Data Science & Machine Learning
+_Servir, conteneuriser, rendre fiable : qu'un modèle serve à quelqu'un, pas seulement dans un notebook._
 
-| Projet | Objectif | Outils | Lien |
-|--------|----------|--------|------|
-| 🧠 **Prédiction du Turnover RH** <br/> *Salifort Motors* | Projet complet de l'analyse jusqu'au déploiement du model de machine learning pour prédire les employés à risque de quitter l’entreprise | Python, XGBoost, Scikit-learn,Excel | [💻 Code](https://github.com/Yohannkp/Projet-Salifort-Motors.) |
-| 🎬 **Recommandation de films** | Construire un système de recommandation simple | Python, Pandas, Numpy | [💻 Code](https://github.com/Yohannkp/Recommandation-de-films) |
-| 📈 **Analyse et de Modélisation des Prix des Maisons** | Ce projet vise à analyser un ensemble de données sur les maisons, à effectuer un prétraitement des données, à explorer les relations entre les variables, et à construire des modèles de régression pour prédire les prix des maisons. | Python | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/data-analyst-project) |
-| 📈 **Analyse frais médicaux** | Ce projet vise à analyser un ensemble de données médicales pour comprendre les relations entre différentes variables et les frais médicaux. Nous avons également développé des modèles prédictifs pour estimer les frais médicaux en fonction des caractéristiques des patients. | Python | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP8) |
-| 📈 **Régression linéaire Simple** | Analyse des données(Formattage, Netoyage) et mise en place d'un model de régression linéaire Pour prédire les prix | Python,Machine learning,Skit-learn | [💻 Code](https://github.com/Yohannkp/Cour-Data-et-IA-IPSSI.git) |
-| 📈 **Breast-Cancer-Prediction-Using-Machine-Learning** | Détection du cancer du sein grace au model de regression logistique | Python,Machine learning,Skit-learn | [💻 Code](https://github.com/Yohannkp/Breast-Cancer-Prediction-Using-Machine-Learning) |
----
+| Projet | Le problème | Preuve | Stack | Lien |
+|---|---|---|---|---|
+| **RAG-Local** <br/> _assistant documentaire_ | Un assistant utile sur ses documents, sans envoyer un seul fichier à un service externe. | **0** requête réseau sortante : tout reste sur la machine | FastAPI · Chroma · Ollama · Next.js · Docker Compose · RAGAS | [Code](https://github.com/Yohannkp/RAG-Local) |
+| **SELF_DEV_AGENT** <br/> _agent de développement_ | Un modèle local de 7 milliards de paramètres n'est pas fiable : on ne peut pas croire ses réponses. | **7 Md** de paramètres : peu fiable seul, vérifié par les tests | Ollama · Tool calling · AST · Python | [Code](https://github.com/Yohannkp/Claude-local) |
+| **Prédiction de productivité** <br/> _modèle servi par une API_ | Prédire la productivité d'une équipe, et que la prédiction serve dans une application. | — | FastAPI · Flutter · Python · Machine Learning | [Code](https://github.com/Yohannkp/Application-prediction-de-productivit-) |
 
-## 📈 Statistiques et clustering
+## Affiner et entraîner des modèles
 
-| Projet | Objectif | Outils | Lien |
-|--------|----------|--------|------|
-| 🧪 **Landing Page A/B Test** | Déterminer quelle version performe le mieux | Python, Pandas, SciPy, Streamlit | [💻 Code](https://github.com/Yohannkp/Tests-Statistiques-Landing-Page) |
-| 📊 **Segmentation marketing** | Identifier les segments les plus rentables | Python, Scikit-learn, PCA, Streamlit | [💻 Code](https://github.com/Yohannkp/Analyse-Marketing) |
-| 📈 **Tiktok A/B Test** | Analyse de performance sur données TikTok | Python, Seaborn | [💻 Code](https://github.com/Yohannkp/A-B-Testing-Tiktok) |
----
+_Comprendre ce qu'on entraîne : la donnée, l'environnement, l'architecture, et ce qui manque quand rien n'existe._
 
-## 🧠 Analyse exploratoire & préparation
+| Projet | Le problème | Preuve | Stack | Lien |
+|---|---|---|---|---|
+| **Mina-Translator** <br/> _traduction français ↔ mina_ | Le mina n'a aucun corpus parallèle public : sur une langue peu dotée, la difficulté est la donnée, pas l'entraînement. | **360** paires retenues après audit, sur 500 générées | QLoRA · Whisper · FastAPI · Streamlit | [Code](https://github.com/Yohannkp/mina-translator) |
+| **Snake RL** <br/> _apprentissage par renforcement_ | Apprendre à jouer à Snake sans aucune règle écrite à la main. | **0** règle écrite à la main : l'agent apprend seul | PyTorch · Gymnasium · DQN | [Code](https://github.com/Yohannkp/Apprentissage-par-renforcement-Snake-Game) |
+| **Détection d'émotions** <br/> _vision par ordinateur_ | Reconnaître des émotions image par image, en temps réel, sur un flux webcam. | — | PyTorch · OpenCV · CNN | [Code](https://github.com/Yohannkp/D-tection-des-motions) |
+| **Détection de fausses actualités** <br/> _classification de texte_ | Distinguer les vrais des faux articles de presse. | — | Keras · LSTM · NLP | [Code](https://github.com/Yohannkp/Fake-News-Detection-with-Machine-Learning) |
 
-| Projet | Objectif | Outils | Lien |
-|--------|----------|--------|------|
-| 📂 **EDA Tiktok Sinistres** | Préparer les données pour un projet ML | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/EDA-Projet-TIKTOK) |
-| 📊 **Scénario Tiktok (part 1)** | Identifier les variables clés dans le jeu de données | Python, Excel | [💻 Code](https://github.com/Yohannkp/Tiktok-Scenario-Part-1-) |
-| 👁 **Détection de fraudes bancaires** | Détection des anomalies dans les données financières | Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/AED-D-tection-de-fraudes) |
-| **Extraction et visualisation des données boursières** | Extraire les données essentielles d'un ensemble de données et les afficher est une étape essentielle de la science des données | Python | [💻 Code](https://github.com/Yohannkp/WebScraping/tree/main) |
-| **Analyse et Modélisation des Données Automobiles** | L'objectif principal de ce projet était d'analyser les données automobiles pour comprendre les relations entre différentes caractéristiques des voitures et leur prix. Nous avons utilisé des techniques de régression linéaire simple, régression linéaire multiple, régression polynomiale et pipelines pour modéliser ces relations et effectuer des prédictions. | Python  | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP6) |
-| **Analyse des Prix des Ordinateurs Portables** | Ce projet vise à analyser les facteurs influençant les prix des ordinateurs portables en utilisant un ensemble de données contenant des informations sur diverses caractéristiques des ordinateurs portables. Nous avons utilisé des bibliothèques Python telles que pandas, numpy, matplotlib, seaborn, et scipy pour effectuer l'analyse.| Python, Pandas, Matplotlib | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP5) |
-| **Analyse de Données - Automobile Dataset** | Ce projet consiste en une analyse exploratoire et une visualisation des données du dataset automobile. L'objectif est d'identifier les relations entre les variables et de déterminer les facteurs influençant le prix des voitures.| Python | [💻 Code](https://github.com/Yohannkp/Analyse-de-donn-es-avec-Python-IBM-/tree/main/TP/TP4) |
-| **Tableau de Bord des Statistiques Automobiles** | Partie 1 : Création de visualisations statiques avec Matplotlib, Seaborn et Folium.Partie 2 : Conception d’un dashboard interactif avec Plotly Dash permettant d'explorer les statistiques de vente d'automobiles. | Python, Pandas, Plotly, Dash, Matplotlib, Seaborn, Folium, Visualisation de données, Analyse exploratoire, Agrégation, Interactivité, Cartographie, Dashboarding| [💻 Code](https://github.com/Yohannkp/Visualisation-des-donn-es-avec-python-IBM-/tree/main/Projet%20Finale) |
----
+## Mesurer et prouver
 
+_Ne pas s'arrêter à « ça marche » : choisir le bon test, quantifier l'effet, expliquer la décision._
 
+| Projet | Le problème | Preuve | Stack | Lien |
+|---|---|---|---|---|
+| **Optimisation des ventes** <br/> _impact d'un agencement en magasin_ | Mesurer l'effet d'un nouvel agencement quand on ne peut pas tirer les magasins au sort. | **1 : 1** un magasin contrôle apparié à chaque magasin test | pandas · Inférence causale · Tests statistiques | [Code](https://github.com/Yohannkp/Optimisation-des-ventes) |
+| **Scoring de risque crédit** <br/> _classification déséquilibrée_ | Prévoir le défaut sur des données bancaires fortement déséquilibrées, en limitant les faux négatifs. | **0,88** d'AUC sur le jeu de test | XGBoost · SHAP · SMOTE | [Code](https://github.com/Yohannkp/Finance-Analytics---Credit-Scoring) |
+| **Départ des employés** <br/> _rétention des salariés_ | Identifier les salariés à risque de départ, et ce qui les retient avant qu'ils démissionnent. | **0,94** d'AUC sur le jeu de test | Random Forest · Scikit-learn · Power BI | [Code](https://github.com/Yohannkp/Projet-Salifort-Motors.) |
+| **Ventes en supermarché** <br/> _analyse SQL_ | Savoir ce qui rapporte et ce qui coûte dans les ventes d'un supermarché : plus de 878 000 lignes de vente, prix de gros et taux de perte. | **878 000** lignes de vente analysées en SQL | SQL · CTE · Fonctions de fenêtrage | [Code](https://github.com/Yohannkp/Supermarket-Sales-Analysis-SQL-Driven-Business-Insights) |
+| **Test A/B d'une page** <br/> _expérimentation_ | Décider laquelle de deux versions d'une page convertit le mieux. | — | scipy · pandas · Streamlit | [Code](https://github.com/Yohannkp/Tests-Statistiques-Landing-Page) |
 
-## 📊 Projets Excel & Data Cleaning
+## Construire des applications
 
-| Projet | Objectif | Outils | Lien | Certification |
-|--------|----------|--------|------|---------------|
-| 🚗 **Montgomery Fleet Inventory – Part 1** | Nettoyage complet d’un dataset CSV (doublons, fautes, lignes vides, formatage) | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
-| 📊 **Montgomery Fleet Inventory – Part 2** | Création de 3 TCD + tri + AutoSum + structuration hiérarchique | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Montgomery%20Project) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
-| 📊 **Car_Sales_Kaggle** |Se familiariser avec la création de graphiques de base dans Excel| Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Data%20Visualization%20and%20Dashboard%20Excel%20cognos/Practice1) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
-|  **Peer-Graded Assignment** | créer des visualisations à partir de données réelles issues du secteur automobile, pour analyser les ventes et les profits par concessionnaire. | Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Data%20Visualization%20and%20Dashboard%20Excel%20cognos/Practice4) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/certificate/XKGUADPM52WU) |
-|  **Visualisations avec IBM Cognos Analytics** |  créer un tableau de bord interactif dans Cognos Analytics, permettant à un manager régional d’analyser les ventes et services de plusieurs concessions automobiles.| Excel | [📄 Fichier](https://github.com/Yohannkp/Excel/tree/main/Data%20Visualization%20and%20Dashboard%20Excel%20cognos/Practice5) | [🎓 Voir le certificat](https://www.coursera.org/account/accomplishments/verify/LJ4PXNZB31A4) |
+_Le socle de développement : backend, authentification, bases de données, interfaces._
 
+| Projet | Le problème | Preuve | Stack | Lien |
+|---|---|---|---|---|
+| **Le Bon Coin** <br/> _plateforme d'annonces_ | Authentifier sans stocker de mot de passe en clair, et garantir qu'un utilisateur ne modifie que ses propres annonces. | **MongoDB → SQLite** migration : modèles et contrôleurs réécrits | Node.js · Express · JWT · Sequelize · React | [Code](https://github.com/Yohannkp/React-MERN-Project) · [Étude de cas](https://v0-junior-developer-portfolio-bay.vercel.app/projects/leboncoin-mern) |
+| **ApplyFlow** <br/> _SaaS de suivi de candidatures_ | Ne plus perdre le fil de dizaines de candidatures dans des tableurs. | — | Next.js · TypeScript · Supabase · Tailwind CSS | [Démo](https://v0-apply-flow-saa-s-app.vercel.app/) · [Étude de cas](https://v0-junior-developer-portfolio-bay.vercel.app/projects/applyflow) |
+| **Recommandation de films** <br/> _base de graphes_ | Naviguer les relations entre films, acteurs, réalisateurs et genres, avec une recherche tolérante aux erreurs. | — | Neo4j · FastAPI · React · Docker Compose | [Code](https://github.com/fayesarah555/movies-webapp) (projet d'équipe) · [Étude de cas](https://v0-junior-developer-portfolio-bay.vercel.app/projects/movies-database) |
+| **CloudUs** <br/> _API de stockage cloud_ | Stocker des fichiers, gérer les quotas d'espace et facturer automatiquement. | — | Symfony · PHP · JWT · MySQL | [Code](https://github.com/Batyeste/CloudUs) (projet d'équipe) · [Étude de cas](https://v0-junior-developer-portfolio-bay.vercel.app/projects/cloudus-api) |
+| **MiniSearch** <br/> _moteur de recherche interne_ | Retrouver l'information pertinente parmi des milliers de documents, vite, avec des filtres. | — | PostgreSQL · React · TypeScript · Supabase | [Démo](https://find-all-finder.lovable.app/) · [Étude de cas](https://v0-junior-developer-portfolio-bay.vercel.app/projects/minisearch) |
 
----
+## Me contacter
 
-## 📱 Développement mobile
+- Portfolio : https://v0-junior-developer-portfolio-bay.vercel.app
+- LinkedIn : [linkedin.com/in/yohannkp](https://www.linkedin.com/in/yohannkp)
+- E-mail : yendiyohann@gmail.com
 
-| Projet | Objectif | Tech | Lien |
-|--------|----------|------|------|
-|**Text-to-Speech avec IA** | Cette application utilise Flutter pour fournir une interface permettant à l'utilisateur d'envoyer des requêtes à une IA, et d'écouter les réponses via une synthèse vocale (Text-to-Speech). | Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/application_translate_flutter) |
-|**NORAF** | Une application qui permet aux visiteurs de d'obtenir et de visiter les meilleurs coins de mon pays le Togo| Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/NORAF) |
-| 🏠 **Location de maison** | Trouver un logement depuis son mobile | Flutter, Firebase | [💻 Code](https://github.com/Yohannkp/LocationMaison) |
-| 🍳 **Yummly app clone** | App de recettes responsive | Flutter | [💻 Code](https://github.com/Yohannkp/yummly) |
-| **Emergency** | Une application polyvalente, disponible sur mobile et desktop, développée avec Flutter et alimentée par une API Django. Conçue pour améliorer la réponse aux situations critiques, Emergency offre une série de fonctionnalités essentielles pour offrir un soutien immédiat en cas de besoin. | Flutter, Django API | [💻 Code](https://github.com/Yohannkp/emmergency) |
----
-
-## 🌐 Développement web
-
-| Projet | Objectif | Stack | Lien |
-|--------|----------|-------|------|
-| **AUTO-ECOLE EN LIGNE**|Une app web permettant de faire des réservations de cours de conduite en ligne |Symfony|[💻 Code](https://github.com/Yohannkp/AUTO_ECOLE)|
-| 🧪 **Site Flask - TP IPSSI** | Backend de test web avec base SQLite | Flask, Python | [💻 Code](https://github.com/Yohannkp/Site_Flask) 
-|**Application FastFood** | Chili Loco est une application web dédiée à la gestion efficace d'un fast-food. Développée avec le framework Symfony, et utilisant MySQL pour la base de données, cette application a été conçue à partir de maquettes réalisées sur Figma. Chili Loco permet de gérer les plats disponibles au restaurant en offrant des fonctionnalités pour afficher, modifier et supprimer des plats.| Symfony, MySQL | [💻 Code](https://github.com/Yohannkp/Chililoco) |
-| ⚙️ **API de Gestion de Fichiers et d’Espace de Stockage** | Une API qui permet aux utilisateurs de gérer leurs fichiers et leur espace de stockage sur une plateforme sécurisée. Les administrateurs ont accès à des fonctionnalités avancées de gestion des utilisateurs et de visualisation de statistiques. | PHP >= 8.2 Symfony >= 6.0 Composer MySQL | [💻 Code](https://github.com/Batyeste/CloudUs/tree/back) |
-| **Projet Docker-K8s**|Architecture Web avec 3 conteneurs|Docker|[💻 Code](https://github.com/Yohannkp/Groupe-12-TP-docker)|
-| **🛍️ Le Bon Coin - Clone MERN Stack**|Une application complète MERN (MongoDB, Express, React, Node.js) permettant à des utilisateurs de publier, modifier, supprimer et consulter des petites annonces. Inspirée de "Le Bon Coin", cette version simplifiée inclut un système sécurisé d'authentification, une gestion CRUD complète des annonces, et une interface moderne.|React.js ,Node.js + Express,MongoDB Atlas,JWT + bcryptjs|[💻 Code](https://github.com/Yohannkp/React-MERN-Project)|
-| **🛍️ Product App**|On a développé en groupe un projet MERN où chaque utilisateur peut s’inscrire, se connecter et gérer ses propres produits de façon sécurisée grâce à bcrypt et JWT. Le backend gère les utilisateurs et leurs produits liés, avec des fonctionnalités de recherche et filtres avancés. Le frontend en React|React.js ,Node.js + Express,MongoDB Atlas,JWT + bcryptjs|[💻 Code](https://github.com/fayesarah555/tp-groupe-mern-.git)|
-
----
-
-## 📫 Me contacter
-
-- 📧 Email : [yendiyohann@gmail.com](mailto:yendiyohann@gmail.com)
-- 💼 LinkedIn : [linkedin.com/in/yohannkp](https://www.linkedin.com/in/yohannkp/)
-- 🌐 Portfolio Web : [Mon portfolio](https://v0-junior-developer-portfolio-bay.vercel.app/)
-- 🧪 GitHub : [github.com/Yohannkp](https://github.com/Yohannkp)
-
----
-
-> _« Je transforme les données en décisions. »_  
-> Chaque projet ici a été pensé pour résoudre un problème métier réel avec des outils adaptés et une logique d’impact.
+_Les anciens travaux de formation (TP, exercices de cours) sont archivés sur mon profil GitHub : ils restent consultables mais ne figurent pas ici._
